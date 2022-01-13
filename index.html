@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+              <meta charset="UTF-8">
+              <meta http-equiv="X-UA-Compatible" content="IE=edge">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>FlexBox-HTML5/CSS3</title>
+              <style>
+              #content {
+              background: #e7eef5;
+              height: 500px;
+              display: flex;
+              flex-direction: row; 
+              flex-wrap: now-rap;
+              justify-content: flex-start;
+              align-items: flex-start;
+              
+              }
+              .item {
+              flex: 0 1 auto;
+              flex-grow: 10;
+              flex-shrink: 1;
+              flex-basis: 15px;
+              width: 100px;
+              height: 50px;
+              color: black;
+             box-shadow: 0px 2px 8px -1px;
+              background: white;
+              margin: 5px;
+              border: 4px solid #00ffff;
+              text-align: center;
+               }
+               .item:nth-child(1) {
+               
+               flex-grow:1;
+                }
+                h1{
+                color: #00ffff;
+                text-shadow: 
+                2px 3px 4px #e70202;
+                }
+                     </style>
+</head>
+<body>
+<center><h1>Aprenda a trabalhar com FlexBox-HTML5/CSS3.</h1>
+     <section id="content">
+     <article class="item">01</article>
+     <article id="item">02</article>
+     <article id="item">03</article>
+     <article id="item">04</article>
+
+     
+     
+
+     
+     </section>         
+</body>
+</html>
