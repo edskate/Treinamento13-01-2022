@@ -24,3 +24,4 @@ I'm working with website<!--eu vou trabalhar com we site-->
 13/01/2022 14:16
 
 1 persistência
+-criando html com flex-box e css com finalização ás 16:43.
